@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			html,
+			body,
+			wrapper {
+				height: 100%;
+				overflow: hidden;
+			}
+			ul li{
+				font-size: 30px;
+				line-height: 80px;
+			}
+			li:nth-child(odd) {
+				background: orangered;
+			}
+			li:nth-child(even) {
+				background: greenyellow;
+			}
+		</style>
+	</head>
+	<body>
+		<div id='wrapper'>
+			<div id="container">
+				<ul>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+				</ul>
+				<ul>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+					<li>测试</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="../src/myScroll.js"></script>
+		<script type="text/javascript">
+			const container = new MyScroll({
+				el: '#container'
+			})
+		</script>
+	</body>
+</html>
